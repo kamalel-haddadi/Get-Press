@@ -4,6 +4,10 @@ const avatarUrls = [
     "https://avatars.githubusercontent.com/u/20110627",
     "https://avatars.githubusercontent.com/u/106103625",
 ];
+// React
+// import { motion } from "framer-motion"
+// React Server Components
+// import * as motion from "framer-motion/client"
 
 import WordRotate from "@/components/ui/word-rotate";
 import ShimmerButton from "@/components/ui/shimmer-button";
@@ -12,7 +16,7 @@ function Subhero() {
 
     return (
         <>
-            <div className="relative flex flex-col items-center justify-center z-20 w-full py-20">
+            <div className="relative overflow-hidden flex flex-col items-center justify-center z-20 w-full py-20">
                 <div className="flex flex-col items-center justify-center max-w-3xl gap-y-8">
                     <div className="flex flex-col items-center justify-center gap-y-4">
                         <div className="flex items-center gap-2">
@@ -44,14 +48,14 @@ function Subhero() {
                         </div>
                         <div className="flex items-center gap-x-4">
                             {/* add svg's here */}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" color="#a8a29e" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path><path d="M12 7v5l4 2"></path></svg>
+                            <svg className="w-auto h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#ff8800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                             <span className="text-sm text-muted-foreground">14-day free trail</span>
                             <span className="text-[#a8a29e]">•</span>
                             {/* add svg's here */}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" color="#a8a29e" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>
+                            <svg className="w-auto h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#ff8800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                             <span className="text-sm text-muted-foreground"> No card required</span>
                             <span className="text-[#a8a29e]">•</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" color="#a8a29e" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>
+                            <svg className="w-auto h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12.6111L8.92308 17.5L20 6.5" stroke="#ff8800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                             <span className="text-sm text-muted-foreground"> No card required</span>
                         </div>
                     </div>

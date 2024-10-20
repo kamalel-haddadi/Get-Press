@@ -1,9 +1,9 @@
 function Navbar() {
     return (
         <>
-            <nav className="fixed top-5 left-0 right-0 z-50 mx-auto rounded-4xl">
-                <div className="text-neutral-500 max-w-7xl mx-auto ">
-                    <div className="flex justify-around px-10 py-3 space-x-6 items-center border border-[#f5eeeb9a] bg-[#f5eeeb8c] backdrop-blur-xl rounded-full">
+            <nav className="fixed top-5 max-w-4xl left-0 right-0 z-50 mx-auto rounded-4xl">
+                <div className="text-neutral-500 mx-auto ">
+                    <div className="flex  justify-around px-2 py-3 items-center border border-[#f5eeeb9a] bg-[#f5eeeb8c] backdrop-blur-xl rounded-full">
                         <div className="flex items-center">
                             <svg className="w-auto h-6" width="790" height="174" viewBox="0 0 790 174" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M519.57 105.3C516.18 103.69 513.78 102.08 512.37 100.49L510.26 97.97V135.69H491.44V37.88H510.26V46.27C510.44 46 510.73 45.66 511.11 45.25C511.49 44.84 512.31 44.08 513.57 42.96C514.82 41.85 516.17 40.85 517.63 39.96C519.08 39.07 520.97 38.28 523.29 37.57C525.61 36.86 528.02 36.51 530.52 36.51C539.39 36.51 547.08 39.95 553.61 46.84C560.14 53.73 563.4 62.15 563.4 72.11C563.4 82.07 560.14 90.49 553.61 97.38C547.09 104.27 539.39 107.71 530.52 107.71C526.61 107.71 522.96 106.9 519.57 105.29V105.3ZM515.17 58.58C511.9 62.1 510.26 66.62 510.26 72.12C510.26 77.62 511.9 82.15 515.17 85.69C518.44 89.24 522.41 91.01 527.07 91.01C531.73 91.01 535.69 89.24 538.94 85.69C542.19 82.14 543.82 77.62 543.82 72.12C543.82 66.62 542.19 62.1 538.94 58.58C535.69 55.06 531.73 53.29 527.07 53.29C522.41 53.29 518.44 55.05 515.17 58.58Z" fill="#232647" />
